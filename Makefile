@@ -2,6 +2,7 @@ LLVM=~/llvm80
 CC=${LLVM}/bin/clang
 #CXX=${LLVM}/bin/clang++
 CXX=g++
+#Use g++
 INC=./include
 LLVM_CONFIG=${LLVM}/bin/llvm-config
 CXXFLAGS=`$(LLVM_CONFIG) --cxxflags` -std=c++14 -c
