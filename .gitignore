@@ -1,0 +1,6 @@
+.vscode
+*.ll
+*.s
+*.so
+*.o
+./tests/bin
